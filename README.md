@@ -6,9 +6,9 @@ Leveraging Hardy-Weinberg disequilibrium to test association in case-control stu
 - [Testing association with RA joint](#RA_joint)
 
 ## :heavy_plus_sign: Examples
-- <a name="import_functions"></a> Save [RA functions](https://github.com/lzhangdc/RA_joint/blob/main/RA_joint.R) in the working directory
+- <a name="import_functions"></a> Save [RA joint functions](https://github.com/lzhangdc/RA_joint/blob/main/RA_joint.R) in the working directory
 ```R
-source('RA_functions.R')
+source('RA_joint.R')
 ```
 
 - <a name="indep"></a> [Independent samples], Y can be continuous or binary
