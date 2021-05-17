@@ -38,6 +38,6 @@ source('RA_joint.R')
 ########################################################################
 
 temp_result <- fast_MI_joint_HWE(gSNP=g, pheno=y)
-colnames(temp_result) <- c('RA_joint', 'genotypic', 'geno_score', 'add_wald', 'add_score', 'control_maf','control_delta', 'control_HWE', 'case_maf','case_delta', 'case_HWE','pool_maf','pool_delta', 'pool_HWE')
+names(temp_result) <- c('RA_joint', 'genotypic', 'geno_score', 'add_wald', 'add_score', 'control_maf','control_delta', 'control_HWE', 'case_maf','case_delta', 'case_HWE','pool_maf','pool_delta', 'pool_HWE')
 
 ```
